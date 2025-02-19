@@ -1,0 +1,45 @@
+# Eclipse
+*.metadata
+*.settings
+[Rr]elease
+[Dd]ebug
+*.launch
+docs/
+chip_headers/
+
+*.cproject
+*.ld
+# *.project
+*.mxproject
+*.ioc
+
+# ignore startup files
+*.s 
+# ignore project drivers
+Drivers/
+
+# ignore project images (for now)
+/images
+
+# ignore notes
+/stm32-notes
+
+# ignore books
+/*.pdf
+
+# build using vscode
+**/build/
+**/.vscode/
+**/CMakeFiles
+**/cmake
+CMakePresets.json
+compile_commands.json
+
+*.ninja
+*.cmake
+CMakeCache.txt
+log*.txt
+*.log
+
+/cubemx_gen_script.mxgen
+/generate_project.sh
